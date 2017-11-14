@@ -14,7 +14,3 @@ phases:
   post_build:
     commands:
       - echo Nothing to do in the post_build phase...
-artifacts:
-  type: zip
-  files:
-    - unit.zip
