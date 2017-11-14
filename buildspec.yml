@@ -15,6 +15,6 @@ phases:
   post_build:
     commands:
       - echo Nothing to do in the post_build phase...
-  artifacts:
-    files:
-      - '**/*'
+artifacts:
+  files:
+    - '**/*'
