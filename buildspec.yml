@@ -11,6 +11,10 @@ phases:
     commands:
       - echo Build started on `date`
       - pwd
+      - 'cp /var/www/html/* .'
   post_build:
     commands:
       - echo Nothing to do in the post_build phase...
+  artifacts:
+    files:
+      - '**/*'
